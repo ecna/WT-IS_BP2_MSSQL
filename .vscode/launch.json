@@ -12,6 +12,13 @@
             "pathMappings": {
                 "/applicatie/" : "${workspaceRoot}/applicatie/",
             }
+        },
+        {
+            "type": "pwa-chrome",
+            "request": "launch",
+            "name": "Launch Chrome against localhost",
+            "webRoot": "${workspaceFolder}applicatie",
+            "url": "http://localhost:8080/${fileBasename}",
         }
     ]
 }
